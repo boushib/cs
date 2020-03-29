@@ -6,10 +6,19 @@ namespace console
   {
     static void Main(string[] args)
     {
-      int a = 1000;
-      int b = 2345;
-      int c = Math.Max(a, b);
-      System.Console.WriteLine(c);
+      //   string[] games = {"League", "Dota 2", "Clash Royale", "Apex Legends", "Fortnite"};
+      //   foreach(string game in games)
+      //   {
+      //     Console.WriteLine(game);
+      //   }
+      void sayHello(string name)
+      {
+        System.Console.WriteLine($"Hello {name}!");
+      }
+      System.Console.WriteLine("What's your name?");
+      System.Console.Write("->");
+      string name = System.Console.ReadLine();
+      sayHello(name);
     }
   }
 }
