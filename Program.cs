@@ -16,7 +16,7 @@ namespace console
         System.Console.WriteLine($"Hello {name}!");
       }
       System.Console.WriteLine("What's your name?");
-      System.Console.Write("->");
+      System.Console.Write("-> ");
       string name = System.Console.ReadLine();
       sayHello(name);
     }
