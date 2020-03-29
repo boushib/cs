@@ -13,10 +13,10 @@ namespace console
       //   }
       void sayHello(string name)
       {
-        System.Console.WriteLine($"Hello {name}!");
+        Console.WriteLine($"Hello {name}!");
       }
-      System.Console.WriteLine("What's your name?");
-      System.Console.Write("-> ");
+      Console.WriteLine("What's your name?");
+      Console.Write("-> ");
       string name = System.Console.ReadLine();
       sayHello(name);
     }
