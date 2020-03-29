@@ -11,14 +11,21 @@ namespace console
       //   {
       //     Console.WriteLine(game);
       //   }
-      void sayHello(string name)
-      {
-        Console.WriteLine($"Hello {name}!");
+
+      // void sayHello(string name)
+      // {
+      //   Console.WriteLine($"Hello {name}!");
+      // }
+      // Console.WriteLine("What's your name?");
+      // Console.Write("-> ");
+      // string name = System.Console.ReadLine();
+      // sayHello(name);
+
+      double sum(double x, double y){
+        return x + y;
       }
-      Console.WriteLine("What's your name?");
-      Console.Write("-> ");
-      string name = System.Console.ReadLine();
-      sayHello(name);
+
+      Console.WriteLine(sum(4, 9.5));
     }
   }
 }
