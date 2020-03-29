@@ -1,0 +1,11 @@
+{
+  "name": "console_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start" : "dotnet run"
+  },
+  "repository": "https://github.com/boushib/cs.git",
+  "author": "boushib <boushib01@gmail.com>",
+  "license": "MIT"
+}

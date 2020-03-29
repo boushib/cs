@@ -6,9 +6,10 @@ namespace console
   {
     static void Main(string[] args)
     {
-      int age = 29;
-      age--;
-      Console.WriteLine(age);
+      int a = 1000;
+      int b = 2345;
+      int c = Math.Max(a, b);
+      System.Console.WriteLine(c);
     }
   }
 }
